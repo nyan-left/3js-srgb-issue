@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <video
+      id="video"
+      loop
+      crossorigin="anonymous"
+      playsinline
+      style="display: none;"
+    >
+      <source src="src/sintel.ogv" type='video/ogg; codecs="theora, vorbis"' />
+      <source
+        src="src/sintel.mp4"
+        type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+      />
+    </video>
+  </body>
+
+  <script defer src="src/index.js"></script>
+</html>
